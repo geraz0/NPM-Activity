@@ -6,15 +6,14 @@ The purpose of this exercise is to demonstrate your understanding of how to use 
 
 1. **Create an npm project**
 
-   Initialize a new npm project in your working directory:
-
-   ```bash
+Initialize a new npm project in your working directory:
+```bash
    npm init -y
-
+```
 2. Install the 'moment' package
 
 Install the moment package to handle date and time formatting: 
-  ```bash
+```bash
   npm install moment
 ```
 3. Examine the directory structure and effects on package.json
@@ -24,18 +23,18 @@ Take a look at the changes in your project directory and the package.json file. 
 4. Delete the node_modules folder and run npm install again
 
 Remove the node_modules folder and reinstall the dependencies:
-   ```bash
-      rm -rf node_modules
-      npm install
+```bash
+   rm -rf node_modules
+   npm install
 ```
 5. Create an index.js file and update package.json
 
 A. Create an index.js file in your project root directory and update the package.json file so that npm start will run it:
-   ```bash
-      touch index.js
+```bash
+   touch index.js
 ```
 B. Update the scripts section in package.json:
-   ```bash
+```bash
    "scripts": {
      "start": "node index.js"
    }
@@ -57,6 +56,7 @@ Use moment to output the current timestamp when the response arrives, formatted 
 Create a .gitignore file in your project root directory to ignore the node_modules folder:
 ```bash
    node_modules
+```
 
 
       
