@@ -55,7 +55,7 @@ Use moment to output the current timestamp when the response arrives, formatted 
 
 Create a .gitignore file in your project root directory to ignore the node_modules folder:
 ```bash
-   node_modules
+   /node_modules
 ```
 
 
